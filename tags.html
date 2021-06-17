@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>HTML Tags</title>
@@ -22,13 +22,15 @@
       The tables below don't include all HTML tags, but they do list many of
       the most important ones.
     </p>
-
+  <div>
     <table>
+      <header>
       <tr>
         <th>Tag</th>
         <th>Name</th>
         <th>Purpose</th>
       </tr>
+      </header>
       <tr>
         <td><code>h1</code>&ndash;<code>h6</code></td>
         <td>headings</td>
@@ -60,10 +62,11 @@
         <td>include a table data cell</td>
       </tr>
     </table>
-
+  </div>
   <h2>Inline Elements</h2>
-
+  <div>
     <table>
+      <header>
       <tr>
         <th>Tag</th>
         <th>Name</th>
@@ -71,6 +74,7 @@
         <th>Example</th>
         <th>Result</th>
       </tr>
+      </header>
       <tr>
         <td><code>em</code></td>
         <td>emphasized</td>
@@ -96,7 +100,7 @@
             &lt;a href="https://learnenough.com/"&gt;Learn Enough&lt;/a&gt;
           </code>
         </td>
-        <td><a href="https://learnenough.com/">Learn Enough</a</td>
+        <td><a href="https://learnenough.com/">Learn Enough</a></td>
       </tr>
       <tr>
         <td><code>img</code></td>
@@ -117,6 +121,47 @@
         <td><code>img</code></td>
       </tr>
     </table>
-
+  </div>
+  <h2>Lists: Ordered and Unordered</h2>
+  <div>
+    <table>
+      <header>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+        <th>Example</th>
+        <th>Result</th>
+      </tr>
+      </header>
+      <tr>
+        <td><code>ol</code></td>
+        <td>ordered list</td>
+        <td>creates a list with ascending numbers</td>
+        <td><code>&lt;ol&gt;&lt;/ol&gt;</code></td>
+        <td>1.<br>2.<br>3.</td>
+      </tr>
+      <tr>
+        <td><code>ul</code></td>
+        <td>unordered list</td>
+        <td>creates a list with bullet points</td>
+        <td>
+          <code>&lt;ul&gt;&lt;/ul&gt;</code>
+        </td>
+        <td>•<br>•<br>•</td>
+      </tr>
+      <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>creates a data cell in a row within a list</td>
+        <td>
+          <code>
+            &lt;li&gt;&lt;/li&gt;
+          </code>
+        </td>
+        <td>Result will be whatever fills the list item data cell.</td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html> 
